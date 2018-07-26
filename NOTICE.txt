@@ -1,0 +1,2 @@
+ganti nama pada file di folder
+js/ckfinder/config.php sesuai project

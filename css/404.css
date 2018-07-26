@@ -1,0 +1,230 @@
+* { 
+	margin:0; 
+	padding:0; 
+	outline:none;
+}
+body { overflow:hidden }
+a, a:link, a:visited { 
+	text-decoration:none; 
+}
+div.container {
+    margin:0 auto;
+    width:100%;
+	height:100%;
+}
+.clear {
+	display:block;
+	clear:both;	
+}
+div.logo {
+	position:absolute;
+	bottom:15px;
+	right:20px;
+	width:148px;
+	height:56px;
+	z-index:9999;
+}
+div.logo a {
+	display:block;
+	background:url("../images/404/logo.png") no-repeat;
+	width:148px;
+	height:56px;
+}
+.top {
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:190px;
+	overflow:hidden;
+}	
+#cloud01 {
+	z-index:99;
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:166px;
+	background:transparent url("../images/404/cloud01.png") 0 0px repeat-x; 
+}	
+#cloud02 {
+	z-index:98;
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:166px;
+	background:transparent url("../images/404/cloud02.png") 0px 0px repeat-x; 
+}
+#clouds { 
+	position:absolute; 
+	height:160px;
+	width:100%; 
+	z-index:2;  
+	overflow: hidden;
+}
+#bird01 {
+    background:url("../images/404/bird01b.png") no-repeat scroll 0 0 transparent;
+    height:100px;
+    width:100px;
+    position:absolute;
+    top:20px;
+    left:500px;
+    z-index:99;
+}
+#bird02 {
+    background:url("../images/404/bird02b.png") no-repeat scroll 0 0 transparent;
+    height:100px;
+    width:100px;
+    position:absolute;
+    top:70px;
+    right:225px;
+    z-index:99;
+}
+.cont-sun {
+	position:absolute;
+	height:109px;
+	width:110px;
+	left:63%;
+	top:10px;
+}
+.bg-sun {
+	-webkit-border-radius:75px;
+	-moz-border-radius:75px;
+	-ms-border-radius:75px;
+	-o-border-radius:75px;
+	border-radius:75px;
+    position:absolute;
+    left:8px;
+    top:8px;
+    width:93px;
+    height:93px;
+    z-index:1;
+	background:url("../images/404/bg-sun.png") no-repeat;
+}
+.sun {
+	position:absolute;
+	background:url("../images/404/sun2.png") 0px 0px no-repeat;
+	height:109px;
+	width:110px;
+}
+.gradient-line {
+	background: rgb(2,116,232);
+	background: -moz-linear-gradient(left,  rgba(2,116,232,1) 0%, rgba(115,212,255,1) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(2,116,232,1)), color-stop(100%,rgba(115,212,255,1)));
+	background: -webkit-linear-gradient(left,  rgba(2,116,232,1) 0%,rgba(115,212,255,1) 100%);
+	background: -o-linear-gradient(left,  rgba(2,116,232,1) 0%,rgba(115,212,255,1) 100%);
+	background: -ms-linear-gradient(left,  rgba(2,116,232,1) 0%,rgba(115,212,255,1) 100%);
+	background: linear-gradient(to right,  rgba(2,116,232,1) 0%,rgba(115,212,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0274e8', endColorstr='#73d4ff',GradientType=1 );
+	float:left;	
+}
+.error {
+	width:645px;
+	height:125px;
+	position:absolute;
+	left:0px;
+	top:230px;
+	overflow:hidden;
+}
+.left-line {
+	width:230px;
+	height:10px;
+	margin-top:10px;
+}
+.right-line {
+	width:100px;
+	height:10px;
+	margin-top:102px;
+}
+.text {
+	width:275px/*40%*/;	
+	font-family:"Myriad Pro";
+	font-style:italic;
+	font-weight:bold;
+	float:left;
+	margin:0px 15px;
+}
+.text font {
+	float:left;	
+}
+.text > h1.notfound font {
+	text-align:right;
+	float:right;
+	font-weight:bold;
+}
+.back {
+	position:absolute;
+	right:0px;
+	bottom:0px;
+}
+.back:hover .pintu {
+	background-position:right bottom;
+}
+.back:hover .panah, .panah:hover {
+	transform:rotate(-10deg);
+	-moz-transform:rotate(-10deg);
+	-ms-transform:rotate(-10deg);
+	-o-transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	cursor:pointer;
+}
+.arrow {
+	width:195px;
+	height:195px;
+	position:absolute;
+	right:130px;
+	bottom:75px;
+}
+.tiang {
+	background:url("../images/404/tiang.png") no-repeat;	
+	width:195px;
+	height:195px;
+}
+.panah {
+	background:url("../images/404/panah.png") no-repeat;	
+	width:195px;
+	height:195px;
+}
+/*
+.pintu {
+	background:url("pintu.png") 0 0 no-repeat;	
+	bottom:125px;
+    height:151px;
+    position:absolute;
+    right:355px;
+    width:120px;
+}
+*/
+.pintu {
+	background:url("../images/404/pintu.png") 0 0 no-repeat;	
+	bottom:125px;
+    right:320px;
+    position:absolute;
+    width:200px;
+    height:153px;
+    z-index:99;
+}
+
+.arrow2 {
+	width:285px;
+	height:285px;
+	position:absolute;
+	right:130px;
+	bottom:75px;
+	cursor:pointer;
+}
+
+.arrow2 { background:url(../images/404/gositus-arrow.png) no-repeat top }
+.back:hover .arrow2 { 
+	background-position:bottom;
+}
+.pintu {
+	background:url("../images/404/pintu2.png") 0 0 no-repeat;	
+	bottom:125px;
+    right:320px;
+    position:absolute;
+    width:200px;
+    height:153px;
+}
+
+.bubble { visibility:none; position:absolute; background:url("../images/404/buble.png") no-repeat; width:100px; height:100px; right:320px; bottom:150px; }
+.back:hover .bubble { visibility:visible; }
+.wrapper-bubble { opacity:0; } 

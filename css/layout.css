@@ -1,0 +1,36 @@
+* { margin:0; padding:0; outline:none }
+a, a:link, a:visited{ text-decoration:none; }
+body { font-family:Tahoma, Geneva, sans-serif; font-size:12px; }
+img { border:none; }
+div.clear { clear:both; }
+
+#copyright-gositus { background:url(../images/go-online-solusi.png) no-repeat left bottom; color:#FFF; display:block; font-size:10px; height:20px; padding-left:23px; color:#333; }
+#copyright-gositus:hover { background-position:left top; }
+#copyright-gositus:hover label { color: #99CC33; cursor: pointer; }
+#copyright-gositus:hover span { color: #3399CC; }
+
+/* Clear */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+/* Hide from IE Mac \*/
+.clearfix {
+    display: block;
+}
+/* End hide from IE Mac */
+
+::-moz-selection {
+   background-color: #99CCFF;
+   color: #FFFFFF;
+}
+::selection {
+    background-color: #99CCFF;
+    color: #FFFFFF;
+}
